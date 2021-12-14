@@ -6,7 +6,10 @@
     { id: 3, text: 'Comment three' },
   ]
 
-function App() {
+  const loading = false
+  const showComments = true
+
+  if (loading) return <h1>Loading...</h1>
   return (
     <div className="App">
       <header className="App-header">

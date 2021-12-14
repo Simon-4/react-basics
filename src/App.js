@@ -1,5 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+  const title = 'Blog Post'
+  const body = 'This is my blog post'
+  const comments = [
+    { id: 1, text: 'Comment one' },
+    { id: 2, text: 'Comment two' },
+    { id: 3, text: 'Comment three' },
+  ]
 
 function App() {
   return (
